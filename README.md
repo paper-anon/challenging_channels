@@ -3,15 +3,19 @@ This repository contains keys, scripts and data utilized for the paper "Challeng
 
 
 ## CS
-*rules.sh* sets the iptables rules to catch packets from the os. The IP has to be changed to the OS-IP within the file
+*challenger.py* provides four modes: legitimate symmetric (ls), legitimate asymmetric (la), covert symmetric (cs) and covert assymetric (ca)
+Synthax is as follows for each mode:
+### ls
+python3 challenger.py ls
 
-*forwarder_add_partial_cc.py* fetches hash-containing packets and modifies them if necessary. The file contains hard-coded target and source IPs, that have to be modified
+### la
+python3 challenger.py la
 
-Usage :`python3 forwarder_add_partial_cc.py <CC-share in percent - integer>`
+### cs
+python3 challenger.py cs <Alphabet File> <Number of Chars>
 
-*covertmessage.txt*: the message to encode
-
-*alphabet.txt*: the alphabet to utilize
+### ca
+python3 challenger.py ca
 
 ## CR
 *challenger.py* provides four modes: legitimate symmetric (ls), legitimate asymmetric (la), covert symmetric (cs) and covert assymetric (ca)
@@ -29,6 +33,8 @@ python3 challenger.py cs <Alphabet File> <Number of Chars>
 python3 challenger.py ca
   
 
+  
+  
 *public_key_prover.pem* public key of the prover
 
 *private_key_challenger.pem* private key of the challenger
