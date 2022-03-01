@@ -18,7 +18,9 @@ python3 prover.py cs <covert message file> <alphabet file> <token logging file> 
 python3 challenger.py ca <covert message file> <# of chars at once> <token logging file> 
   
 *data*
- contains alphabets and scripts that were used in the paper. Please note that the malicious scripts are provided in an encrypted .zip file. *Do not execute these scripts**. As these have been found in the wild and are clearly malicious and **will be detected by antivirus software**. The password is "Virus"
+ contains alphabets and scripts that were used in the paper. Please note that the malicious scripts are provided in an encrypted .zip file. 
+  **Do not execute these scripts**. As these have been found in the wild and are clearly malicious and **will be detected by antivirus software**. 
+  The password is "Virus"
   
 *public_key_challenger.pem* public key of the challenger
 
