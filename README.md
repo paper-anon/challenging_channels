@@ -4,7 +4,7 @@ This repository contains keys, scripts and data utilized for the paper "Challeng
 
 ## CS
 **challenger.py** provides four modes: legitimate symmetric (ls), legitimate asymmetric (la), covert symmetric (cs) and covert assymetric (ca). 
-*change target IP*: To change the target IP (i.e. the challenger) edit the following line: soc.connect(("192.168.3.29",10001))
+*change target IP*: To change the target IP (i.e. the challenger IP) edit the following line: soc.connect(("192.168.3.29",10001))
 
 ### ls
 python3 prover.py ls <token logging file>
@@ -33,7 +33,7 @@ python3 challenger.py ca <covert message file> <# of chars at once> <token loggi
 
 ## CR
 **challenger.py** provides four modes: legitimate symmetric (ls), legitimate asymmetric (la), covert symmetric (cs) and covert assymetric (ca)
-Synthax is as follows for each mode:
+*change listening IP*: To change the listening IP (i.e. the challenger IP) edit the following line: soc.bind(("192.168.3.29",10001))
 ### ls
 python3 challenger.py ls
 
