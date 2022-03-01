@@ -3,7 +3,7 @@ This repository contains keys, scripts and data utilized for the paper "Challeng
 
 
 ## CS
-*challenger.py* provides four modes: legitimate symmetric (ls), legitimate asymmetric (la), covert symmetric (cs) and covert assymetric (ca)
+**challenger.py** provides four modes: legitimate symmetric (ls), legitimate asymmetric (la), covert symmetric (cs) and covert assymetric (ca)
 Synthax is as follows for each mode:
 ### ls
 python3 prover.py ls <token logging file>
@@ -22,14 +22,16 @@ python3 challenger.py ca <covert message file> <# of chars at once> <token loggi
   **Do not execute these scripts**. As these have been found in the wild and are clearly malicious and **will be detected by antivirus software**. 
   The password is "Virus"
   
-*public_key_challenger.pem* public key of the challenger
+  
+  
+**public_key_challenger.pem** public key of the challenger
 
-*private_key_prover.pem* private key of the prover
+**private_key_prover.pem** private key of the prover
   
   
 
 ## CR
-*challenger.py* provides four modes: legitimate symmetric (ls), legitimate asymmetric (la), covert symmetric (cs) and covert assymetric (ca)
+**challenger.py** provides four modes: legitimate symmetric (ls), legitimate asymmetric (la), covert symmetric (cs) and covert assymetric (ca)
 Synthax is as follows for each mode:
 ### ls
 python3 challenger.py ls
@@ -46,6 +48,6 @@ python3 challenger.py ca
 
   
   
-*public_key_prover.pem* public key of the prover
+**public_key_prover.pem** public key of the prover
 
-*private_key_challenger.pem* private key of the challenger
+**private_key_challenger.pem** private key of the challenger
